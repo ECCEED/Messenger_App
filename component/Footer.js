@@ -1,9 +1,11 @@
 import React from 'react';
 import { NativeBaseProvider, Box, HStack, Pressable, Center, Icon, Text } from 'native-base';
+import { useNavigation } from '@react-navigation/native';
 
 
-function Footer({navigation}) {
+function Footer() {
     const [selected, setSelected] = React.useState(1);
+    const navigation = useNavigation()
 
     return (
         <NativeBaseProvider>
