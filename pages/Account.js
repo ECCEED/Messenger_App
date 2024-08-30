@@ -10,7 +10,7 @@ function Account() {
 
     <SafeAreaProvider>
       <NativeBaseProvider>
-        <Text>Hi HOME</Text>
+        <Text>Hi ACCOUNT</Text>
         <Footer />
       </NativeBaseProvider>
     </SafeAreaProvider>
