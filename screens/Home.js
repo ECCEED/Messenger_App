@@ -1,4 +1,5 @@
 import React from 'react';
+
 import {
   StyleSheet,
   Button,
@@ -18,10 +19,12 @@ function Home() {
   const navigation = useNavigation()
 
 
+
   return (
 
     <SafeAreaProvider>
       <NativeBaseProvider>
+
         <View style={styles.container}>
           <Image
             style={styles.tinyLogo}
@@ -61,11 +64,13 @@ function Home() {
 
 
 
+
       </NativeBaseProvider>
     </SafeAreaProvider>
 
   );
 }
+
 const styles = StyleSheet.create({
   input: {
     height: 40,
